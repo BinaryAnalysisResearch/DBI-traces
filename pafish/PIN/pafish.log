@@ -1,0 +1,17 @@
+
+[pafish] Start
+[pafish] Windows version: 6.2 build 9200
+[pafish] CPU: GenuineIntel (HV: VMwareVMware) Intel(R) Core(TM) i9-10885H CPU @ 2.40GHz
+[pafish] CPU VM traced by checking the difference between CPU timestamp counters (rdtsc)
+[pafish] CPU VM traced by checking the difference between CPU timestamp counters (rdtsc) forcing VM exit
+[pafish] CPU VM traced by checking hypervisor bit in cpuid feature bits
+[pafish] CPU VM traced by checking cpuid hypervisor vendor for known VM vendors
+[pafish] Sandbox traced using mouse activity
+[pafish] Sandbox traced by checking disk size <= 60GB via GetDiskFreeSpaceExA()
+[pafish] VMware traced using Reg key HKLM\SOFTWARE\VMware, Inc.\VMware Tools
+[pafish] VMware traced using file C:\WINDOWS\system32\drivers\vmmouse.sys
+[pafish] VMware traced using file C:\WINDOWS\system32\drivers\vmhgfs.sys
+[pafish] VMware traced using MAC address starting with 00:05:69, 00:0C:29, 00:1C:14 or 00:50:56
+[pafish] VMWare traced using device \\.\vmci
+[pafish] VMware serial number traced using WMI
+[pafish] End

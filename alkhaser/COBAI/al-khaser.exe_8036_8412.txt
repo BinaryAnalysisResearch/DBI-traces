@@ -1,0 +1,7 @@
+[09:23:50.823 20C9CE5C7DB5E][INFO]Main-Thread: {PID:8412}, {TID:8412}, {EP:00CC5140}
+[09:23:50.823 20C9CE5CDEBB8][INFO]  [0xCC5140][ 68 D8 11 CF 00 ]                 push 0x00CF11D8
+[09:23:50.823 20C9CE5D0CF5E][INFO]  [0xCC5145][ FF 15 BC 91 CE 00 ]              call  [0x00CE91BC]
+[09:23:50.823 20C9CE5D3D2C0][INFO]  [API CALL: 0x75824110 KERNEL32.DLL! OutputDebugStringW ("TLS callback: dummy thread launched")]
+[09:23:50.823 20C9CE5D50F56][INFO]  [OutputDebugStringW() -> 0x00000000]
+[09:23:50.823 20C9CE5D63F2A][INFO]  [0xCC514B][ 33 C0 ]                          xor eax, eax
+[09:23:50.823 20C9CE5D7EE60][INFO]  [0xCC514D][ C2 04 00 ]                       retn 0x0004

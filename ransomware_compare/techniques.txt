@@ -1,0 +1,118 @@
+SHA256: ed84a7185bd3decfe9104fa3f6dad24bb0a0ff27a1a792a05ef0f2b010bf7b9b
+
+1
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x76CF0000, "BlockInput")]
+[API CALL: 0x76D31680 USER32.dll! BlockInput (0x1)]
+
+2
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("avghookx.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("avghooka.dll")]
+
+3
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("OLLYDBG", NULL)]
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("WinDbgFrameClass", NULL)]
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("Immunity Debugger", NULL)]
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("Zeta Debugger", NULL)]
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("Rock Debugger", NULL)]
+[API CALL: 0x76D2FBC0 USER32.dll! FindWindowW ("ObsidianGUI", NULL)]
+
+4
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("kernel32.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x757F0000, "IsDebuggerPresent")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("kernel32.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x757F0000, "CheckRemoteDebuggerPresent")]
+[API CALL: 0x75812370 KERNEL32.DLL! IsDebuggerPresent ()]
+[API CALL: 0x75822BD0 KERNEL32.DLL! CheckRemoteDebuggerPresent (GetCurrentProcess(), 0x19F7BC)]
+
+5
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("SbieDll.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("dbghelp.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("snxhk.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("api_log.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("dir_watch.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("vmcheck.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("wpespy.dll")]
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("pstorec.dll")]
+
+6
+[API CALL: 0x75814670 KERNEL32.DLL! CreateToolhelp32Snapshot (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, 0x0)]
+[API CALL: 0x75811EA0 KERNEL32.DLL! Process32FirstW (0x238, "")]
+[API CALL: 0x75810A20 KERNEL32.DLL! Process32NextW (0x238, "")]
+
+7
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0", NULL, 0x1, "")]
+
+8
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "HARDWARE\DESCRIPTION\System", NULL, 0x1, "")]
+
+9
+[API CALL: 0x76AE5EC0 SHLWAPI.dll! PathAppendW ("C:\Windows\system32", "drivers\VBoxMouse.sys")]
+[API CALL: 0x76AE5EE0 SHLWAPI.dll! PathFileExistsW ("C:\Windows\system32\drivers\VBoxMouse.sys")]
+
+10
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0", NULL, 0x1, "")]
+
+11
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "SOFTWARE\VMware, Inc.\VMware Tools", NULL, "", "")]
+
+12
+[API CALL: 0x76AE5EC0 SHLWAPI.dll! PathAppendW ("C:\Windows\system32", "drivers\vmhgfs.sys")]
+[API CALL: 0x76AE5EE0 SHLWAPI.dll! PathFileExistsW ("C:\Windows\system32\drivers\vmhgfs.sys")]
+[API CALL: 0x76AE5EC0 SHLWAPI.dll! PathAppendW ("C:\Windows\system32", "drivers\vmmouse.sys")]
+[API CALL: 0x76AE5EE0 SHLWAPI.dll! PathFileExistsW ("C:\Windows\system32\drivers\vmmouse.sys")]
+
+13
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0", NULL, 0x1, "")]
+
+14
+[API CALL: 0x75B1EF80 ADVAPI32.dll! RegOpenKeyExW (0x80000002, "HARDWARE\DESCRIPTION\System", NULL, 0x1, "")]
+
+15
+[API CALL: 0x75813180 KERNEL32.DLL! CloseHandle (0x0)]
+
+16
+[API CALL: 0x758133E0 KERNEL32.DLL! CreateFileW ("\\.\PhysicalDrive0", 0x80000000, 0x1, NULL, 0x3, NULL, NULL)]
+[API CALL: 0x7580F870 KERNEL32.DLL! DeviceIoControl (0x270, IOCTL_DISK_GET_LENGTH_INFO, 0x0, 0x0, 0x19F7B4, 0x8, 0x19F7BC, 0x0)]
+
+17
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("kernel32.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x757F0000, "wine_get_unix_file_name")]
+
+18
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("ntdll.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x77380000, "NtClose")]
+[API CALL: 0x773F2C70 ntdll.dll! NtClose (0x99999999)]
+[API CALL: 0x75813180 KERNEL32.DLL! CloseHandle (0x99999999)]
+
+19
+[API CALL: 0x773AB0E0 ntdll.dll! RtlAddVectoredExceptionHandler (0x1, 0x402CA2)]
+[0x402F7A][ CC ]                             int3 
+[__BEGIN__(VECTORED_EXCEPTION_HANDLER{0x402CA2}) (CODE:0x80000003:"Breakpoint Exception", ADDRESS:00402F7A, EIP:0x00402F7A)]
+[__END__(VECTORED_EXCEPTION_HANDLER)]
+[API CALL: 0x773AB280 ntdll.dll! RtlRemoveVectoredExceptionHandler (0x27B0CC8)]
+
+20
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("ntdll.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x77380000, "NtQueryInformationProcess")]
+
+21
+[API CALL: 0x758119C0 KERNEL32.DLL! SetUnhandledExceptionFilter (0x402C1B)]
+[0x402FF6][ 33 C0 ]                          xor eax, eax
+[0x402FF8][ F7 F0 ]                          div eax
+[__BEGIN__(UNHANDLED_EXCEPTION_FILTER{0x402C1B}) (CODE:0xC0000094:"Integer Division By Zero", ADDRESS:00402FF8, EIP:0x00402FF8)]
+[API CALL: 0x758119C0 KERNEL32.DLL! SetUnhandledExceptionFilter (0x0)]
+[__END__(UNHANDLED_EXCEPTION_FILTER)]
+
+22
+[API CALL: 0x75810D00 KERNEL32.DLL! GetModuleHandleA ("ntdll.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x77380000, "RtlGetVersion")]
+[API CALL: 0x773AFF50 ntdll.dll! RtlGetVersion (0x19F698)]
+
+23
+[API CALL: 0x758110F0 KERNEL32.DLL! GetModuleHandleW ("ntdll.dll")]
+[API CALL: 0x7580F7F0 KERNEL32.DLL! GetProcAddress (0x77380000, "NtQueryInformationProcess")]
+[API CALL: 0x773F2D10 ntdll.dll! NtQueryInformationProcess (GetCurrentProcess(), ProcessDebugPort, 0x19F7BC, 0x4, 0x0)]
+[API CALL: 0x773F2D10 ntdll.dll! NtQueryInformationProcess (GetCurrentProcess(), ProcessDebugObjectHandle, 0x19F7B8, 0x4, 0x0)]
+[API CALL: 0x773F2D10 ntdll.dll! NtQueryInformationProcess (GetCurrentProcess(), ProcessDebugFlags, 0x19F7B4, 0x4, 0x0)]
+[API CALL: 0x773F2D10 ntdll.dll! NtQueryInformationProcess (GetCurrentProcess(), ProcessBasicInformation, 0x19F770, 0x18, 0x0)]
+

@@ -1,0 +1,23 @@
+[09:35:35.775] [main-module:00CC50F2]: 83 7d 0c 02                         cmp dword ptr [ebp+0xc], 0x2       
+[09:35:35.789] [main-module:00CC50F6]: 75 1d                               jnz 0xcc5115                       
+[09:35:35.789] [main-module:00CC50F8]: 68 60 11 cf 00                      push 0xcf1160                      
+[09:35:35.789] [main-module:00CC50FD]: ff 15 bc 91 ce 00                   call dword ptr [0xce91bc]          
+    [KERNEL32.DLL:OutputDebugStringW_9C93B5B1] (00CF1160: (TCHAR*)"TLS callback: thread attach")
+    [API-RETURN(... -> 00CC5103): 00000001]
+[09:35:35.789] [main-module:00CC5103]: c7 05 5c 4d d1 00 ef be ad de       mov dword ptr [0xd14d5c], 0xdeadbeef
+[09:35:35.789] [main-module:00CC510D]: ff 35 64 4d d1 00                   push dword ptr [0xd14d64]          
+[09:35:35.789] [main-module:00CC5113]: eb 21                               jmp 0xcc5136                       
+[09:35:35.789] [main-module:00CC5136]: ff 15 c0 91 ce 00                   call dword ptr [0xce91c0]          
+    [KERNEL32.DLL:SetEvent_576808B8] ((DWORD)0x000002A0)
+    [API-RETURN(... -> 00CC513C): 00000001]
+    [ntdll.dll:RtlIpv6AddressToStringA_234FECE4] ((DWORD)0x773F2B66, 00CC0000: (TCHAR*)"MZê")
+[09:35:35.789] [main-module:00CC5140]: 68 d8 11 cf 00                      push 0xcf11d8                      
+[09:35:35.789] [main-module:00CC5145]: ff 15 bc 91 ce 00                   call dword ptr [0xce91bc]          
+    [KERNEL32.DLL:OutputDebugStringW_9C93B5B1] (00CF11D8: (TCHAR*)"TLS callback: dummy thread launched")
+    [API-RETURN(... -> 00CC514B): 00000001]
+[09:35:35.789] [main-module:00CC514B]: 33 c0                               xor eax, eax                       
+[09:35:35.789] [main-module:00CC514D]: c2 04 00                            ret 0x4                            
+    [KERNEL32.DLL:BaseThreadInitThunk_FFFFFFFF] ()
+[09:35:35.850] [main-module:00CC513C]: 5d                                  pop ebp                            
+[09:35:35.850] [main-module:00CC513D]: c2 0c 00                            ret 0xc                            
+    [ntdll.dll:RtlIpv6AddressToStringA_234FECE4] ((DWORD)0x773F2B66, 00CC0000: (TCHAR*)"MZê")

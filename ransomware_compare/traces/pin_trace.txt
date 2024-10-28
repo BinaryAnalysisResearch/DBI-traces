@@ -1,0 +1,1953 @@
+[10:54:39.777] [x64:77377000]: ea 09                               int 0x2e                           
+[10:54:42.634] [x64:77377000]: ea 09                               int 0x2e                           
+[10:54:42.729] [x64:77377000]: ea 09                               int 0x2e                           
+[10:54:43.093] [main-module:004013B9]: 81 ec 30 06 00 00                   sub esp, 0x630                     
+[10:54:43.093] [main-module:004013BF]: ff 15 6c 70 40 00                   call dword ptr [0x40706c]          
+    [KERNEL32.DLL:GetProcessHeap_B0D9C1AE] ()
+    [API-RETURN(... -> 004013C5): 00760000]
+[10:54:43.093] [main-module:004013C5]: 83 25 60 c1 41 00 00                and dword ptr [0x41c160], 0x0      
+[10:54:43.093] [main-module:004013CC]: 8d 54 24 34                         lea edx, ptr [esp+0x34]            
+[10:54:43.093] [main-module:004013D0]: 83 25 64 c1 41 00 00                and dword ptr [0x41c164], 0x0      
+[10:54:43.093] [main-module:004013D7]: 6a 2b                               push 0x2b                          
+[10:54:43.093] [main-module:004013D9]: 59                                  pop ecx                            
+[10:54:43.093] [main-module:004013DA]: a3 98 c1 41 00                      mov dword ptr [0x41c198], eax      
+[10:54:43.093] [main-module:004013DF]: e8 cc 20 00 00                      call 0x4034b0                      
+[10:54:43.093] [main-module:004034B0]: 53                                  push ebx                           
+[10:54:43.093] [main-module:004034B1]: 56                                  push esi                           
+[10:54:43.093] [main-module:004034B2]: 0f b7 f1                            movzx esi, cx                      
+[10:54:43.093] [main-module:004034B5]: 33 c0                               xor eax, eax                       
+[10:54:43.093] [main-module:004034B7]: 57                                  push edi                           
+[10:54:43.093] [main-module:004034B8]: 33 ff                               xor edi, edi                       
+[10:54:43.093] [main-module:004034BA]: 8b da                               mov ebx, edx                       
+[10:54:43.093] [main-module:004034BC]: 66 3b 04 f5 e2 75 40 00             cmp ax, word ptr [esi*8+0x4075e2]  
+[10:54:43.093] [main-module:004034C4]: 73 34                               jnb 0x4034fa                       
+[10:54:43.093] [main-module:004034C6]: 8b 04 f5 e4 75 40 00                mov eax, dword ptr [esi*8+0x4075e4]
+[10:54:43.093] [main-module:004034CD]: 0f b7 d7                            movzx edx, di                      
+[10:54:43.093] [main-module:004034D0]: 66 0f be 0c 10                      movsx cx, byte ptr [eax+edx*1]     
+[10:54:43.093] [main-module:004034D5]: b8 ff 00 00 00                      mov eax, 0xff                      
+[10:54:43.093] [main-module:004034DA]: 66 33 cf                            xor cx, di                         
+[10:54:43.093] [main-module:004034DD]: 66 23 c8                            and cx, ax                         
+[10:54:43.093] [main-module:004034E0]: 0f b6 04 f5 e0 75 40 00             movzx eax, byte ptr [esi*8+0x4075e0]
+[10:54:43.093] [main-module:004034E8]: 66 33 c8                            xor cx, ax                         
+[10:54:43.093] [main-module:004034EB]: 47                                  inc edi                            
+[10:54:43.093] [main-module:004034EC]: 66 89 0c 53                         mov word ptr [ebx+edx*2], cx       
+[10:54:43.093] [main-module:004034F0]: 66 3b 3c f5 e2 75 40 00             cmp di, word ptr [esi*8+0x4075e2]  
+[10:54:43.093] [main-module:004034F8]: 72 cc                               jb 0x4034c6                        
+[10:54:43.093] [main-module:004034FA]: 0f b7 04 f5 e2 75 40 00             movzx eax, word ptr [esi*8+0x4075e2]
+[10:54:43.093] [main-module:00403502]: 33 c9                               xor ecx, ecx                       
+[10:54:43.093] [main-module:00403504]: 5f                                  pop edi                            
+[10:54:43.093] [main-module:00403505]: 5e                                  pop esi                            
+[10:54:43.093] [main-module:00403506]: 66 89 0c 43                         mov word ptr [ebx+eax*2], cx       
+[10:54:43.093] [main-module:0040350A]: 5b                                  pop ebx                            
+[10:54:43.093] [main-module:0040350B]: c3                                  ret                                
+[10:54:43.093] [main-module:004034C6]: 8b 04 f5 e4 75 40 00                mov eax, dword ptr [esi*8+0x4075e4]
+[10:54:43.093] [main-module:004034CD]: 0f b7 d7                            movzx edx, di                      
+[10:54:43.093] [main-module:004034D0]: 66 0f be 0c 10                      movsx cx, byte ptr [eax+edx*1]     
+[10:54:43.093] [main-module:004034D5]: b8 ff 00 00 00                      mov eax, 0xff                      
+[10:54:43.093] [main-module:004034DA]: 66 33 cf                            xor cx, di                         
+[10:54:43.093] [main-module:004034DD]: 66 23 c8                            and cx, ax                         
+[10:54:43.093] [main-module:004034E0]: 0f b6 04 f5 e0 75 40 00             movzx eax, byte ptr [esi*8+0x4075e0]
+[10:54:43.093] [main-module:004034E8]: 66 33 c8                            xor cx, ax                         
+[10:54:43.093] [main-module:004034EB]: 47                                  inc edi                            
+[10:54:43.093] [main-module:004034EC]: 66 89 0c 53                         mov word ptr [ebx+edx*2], cx       
+[10:54:43.093] [main-module:004034F0]: 66 3b 3c f5 e2 75 40 00             cmp di, word ptr [esi*8+0x4075e2]  
+[10:54:43.093] [main-module:004034F8]: 72 cc                               jb 0x4034c6                        
+[10:54:43.093] [main-module:004034FA]: 0f b7 04 f5 e2 75 40 00             movzx eax, word ptr [esi*8+0x4075e2]
+[10:54:43.093] [main-module:00403502]: 33 c9                               xor ecx, ecx                       
+[10:54:43.093] [main-module:00403504]: 5f                                  pop edi                            
+[10:54:43.093] [main-module:00403505]: 5e                                  pop esi                            
+[10:54:43.093] [main-module:00403506]: 66 89 0c 43                         mov word ptr [ebx+eax*2], cx       
+[10:54:43.093] [main-module:0040350A]: 5b                                  pop ebx                            
+[10:54:43.093] [main-module:0040350B]: c3                                  ret                                
+[10:54:43.093] [main-module:004013E4]: 8d 44 24 34                         lea eax, ptr [esp+0x34]            
+[10:54:43.093] [main-module:004013E8]: 50                                  push eax                           
+[10:54:43.093] [main-module:004013E9]: ff 15 64 70 40 00                   call dword ptr [0x407064]          
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F978: (TCHAR*)"dwmapi.dll")
+    [API-RETURN(... -> 004013EF): 00000000]
+[10:54:43.093] [main-module:004013EF]: 85 c0                               test eax, eax                      
+[10:54:43.093] [main-module:004013F1]: 0f 85 6d 03 00 00                   jnz 0x401764                       
+[10:54:43.093] [main-module:004013F7]: 53                                  push ebx                           
+[10:54:43.093] [main-module:004013F8]: 56                                  push esi                           
+[10:54:43.093] [main-module:004013F9]: 57                                  push edi                           
+[10:54:43.093] [main-module:004013FA]: 8d 44 24 3c                         lea eax, ptr [esp+0x3c]            
+[10:54:43.093] [main-module:004013FE]: 33 f6                               xor esi, esi                       
+[10:54:43.093] [main-module:00401400]: 50                                  push eax                           
+[10:54:43.093] [main-module:00401401]: ff 15 8c 70 40 00                   call dword ptr [0x40708c]          
+    [KERNEL32.DLL:GetCommandLineW_0EAC2B76] ()
+    [API-RETURN(... -> 00401407): 00761F1A]
+[10:54:43.093] [main-module:00401407]: 50                                  push eax                           
+[10:54:43.093] [main-module:00401408]: ff 15 cc 70 40 00                   call dword ptr [0x4070cc]          
+    [SHELL32.dll:CommandLineToArgvW_FFFFFFFF] ()
+    [API-RETURN(... -> 0040140E): 00764F30]
+[10:54:44.198] [main-module:0040140E]: 33 db                               xor ebx, ebx                       
+[10:54:44.198] [main-module:00401410]: 8b f8                               mov edi, eax                       
+[10:54:44.198] [main-module:00401412]: 43                                  inc ebx                            
+[10:54:44.198] [main-module:00401413]: 85 ff                               test edi, edi                      
+[10:54:44.198] [main-module:00401415]: 74 2f                               jz 0x401446                        
+[10:54:44.198] [main-module:00401417]: 8b 4c 24 3c                         mov ecx, dword ptr [esp+0x3c]      
+[10:54:44.198] [main-module:0040141B]: 3b cb                               cmp ecx, ebx                       
+[10:54:44.198] [main-module:0040141D]: 7e 27                               jle 0x401446                       
+[10:54:44.198] [main-module:0040141F]: 33 d2                               xor edx, edx                       
+[10:54:44.198] [main-module:00401421]: 85 c9                               test ecx, ecx                      
+[10:54:44.198] [main-module:00401423]: 7e 1a                               jle 0x40143f                       
+[10:54:44.198] [main-module:00401446]: 8b ce                               mov ecx, esi                       
+[10:54:44.198] [main-module:00401448]: e8 b4 18 00 00                      call 0x402d01                      
+[10:54:44.198] [main-module:00402D01]: 81 ec 5c 01 00 00                   sub esp, 0x15c                     
+[10:54:44.198] [main-module:00402D07]: 8d 54 24 20                         lea edx, ptr [esp+0x20]            
+[10:54:44.198] [main-module:00402D0B]: 53                                  push ebx                           
+[10:54:44.198] [main-module:00402D0C]: 55                                  push ebp                           
+[10:54:44.198] [main-module:00402D0D]: 56                                  push esi                           
+[10:54:44.198] [main-module:00402D0E]: 57                                  push edi                           
+[10:54:44.198] [main-module:00402D0F]: 6a 07                               push 0x7                           
+[10:54:44.198] [main-module:00402D11]: 8b e9                               mov ebp, ecx                       
+[10:54:44.198] [main-module:00402D13]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402D14]: e8 97 07 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402D19]: 6a 0e                               push 0xe                           
+[10:54:44.198] [main-module:00402D1B]: 8d 54 24 18                         lea edx, ptr [esp+0x18]            
+[10:54:44.198] [main-module:00402D1F]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402D20]: e8 43 07 00 00                      call 0x403468                      
+[10:54:44.198] [main-module:00403468]: 56                                  push esi                           
+[10:54:44.198] [main-module:00403469]: 0f b7 f1                            movzx esi, cx                      
+[10:54:44.198] [main-module:0040346C]: 33 c0                               xor eax, eax                       
+[10:54:44.198] [main-module:0040346E]: 57                                  push edi                           
+[10:54:44.198] [main-module:0040346F]: 8b fa                               mov edi, edx                       
+[10:54:44.198] [main-module:00403471]: 33 d2                               xor edx, edx                       
+[10:54:44.198] [main-module:00403473]: 66 3b 04 f5 e2 75 40 00             cmp ax, word ptr [esi*8+0x4075e2]  
+[10:54:44.198] [main-module:0040347B]: 73 24                               jnb 0x4034a1                       
+[10:54:44.198] [main-module:0040347D]: 8b 04 f5 e4 75 40 00                mov eax, dword ptr [esi*8+0x4075e4]
+[10:54:44.198] [main-module:00403484]: 0f b7 ca                            movzx ecx, dx                      
+[10:54:44.198] [main-module:00403487]: 8a 04 08                            mov al, byte ptr [eax+ecx*1]       
+[10:54:44.198] [main-module:0040348A]: 32 04 f5 e0 75 40 00                xor al, byte ptr [esi*8+0x4075e0]  
+[10:54:44.198] [main-module:00403491]: 32 c2                               xor al, dl                         
+[10:54:44.198] [main-module:00403493]: 42                                  inc edx                            
+[10:54:44.198] [main-module:00403494]: 88 04 39                            mov byte ptr [ecx+edi*1], al       
+[10:54:44.198] [main-module:00403497]: 66 3b 14 f5 e2 75 40 00             cmp dx, word ptr [esi*8+0x4075e2]  
+[10:54:44.198] [main-module:0040349F]: 72 dc                               jb 0x40347d                        
+[10:54:44.198] [main-module:004034A1]: 0f b7 04 f5 e2 75 40 00             movzx eax, word ptr [esi*8+0x4075e2]
+[10:54:44.198] [main-module:004034A9]: c6 04 38 00                         mov byte ptr [eax+edi*1], 0x0      
+[10:54:44.198] [main-module:004034AD]: 5f                                  pop edi                            
+[10:54:44.198] [main-module:004034AE]: 5e                                  pop esi                            
+[10:54:44.198] [main-module:004034AF]: c3                                  ret                                
+[10:54:44.198] [main-module:0040347D]: 8b 04 f5 e4 75 40 00                mov eax, dword ptr [esi*8+0x4075e4]
+[10:54:44.198] [main-module:00403484]: 0f b7 ca                            movzx ecx, dx                      
+[10:54:44.198] [main-module:00403487]: 8a 04 08                            mov al, byte ptr [eax+ecx*1]       
+[10:54:44.198] [main-module:0040348A]: 32 04 f5 e0 75 40 00                xor al, byte ptr [esi*8+0x4075e0]  
+[10:54:44.198] [main-module:00403491]: 32 c2                               xor al, dl                         
+[10:54:44.198] [main-module:00403493]: 42                                  inc edx                            
+[10:54:44.198] [main-module:00403494]: 88 04 39                            mov byte ptr [ecx+edi*1], al       
+[10:54:44.198] [main-module:00403497]: 66 3b 14 f5 e2 75 40 00             cmp dx, word ptr [esi*8+0x4075e2]  
+[10:54:44.198] [main-module:0040349F]: 72 dc                               jb 0x40347d                        
+[10:54:44.198] [main-module:004034A1]: 0f b7 04 f5 e2 75 40 00             movzx eax, word ptr [esi*8+0x4075e2]
+[10:54:44.198] [main-module:004034A9]: c6 04 38 00                         mov byte ptr [eax+edi*1], 0x0      
+[10:54:44.198] [main-module:004034AD]: 5f                                  pop edi                            
+[10:54:44.198] [main-module:004034AE]: 5e                                  pop esi                            
+[10:54:44.198] [main-module:004034AF]: c3                                  ret                                
+[10:54:44.198] [main-module:00402D25]: 8d 44 24 30                         lea eax, ptr [esp+0x30]            
+[10:54:44.198] [main-module:00402D29]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402D2A]: ff 15 44 70 40 00                   call dword ptr [0x407044]          
+    [KERNEL32.DLL:LoadLibraryW_9FE161FC] (0019F7F8: (TCHAR*)"user32.dll")
+    [API-RETURN(... -> 00402D30): 76CF0000]
+[10:54:44.198] [main-module:00402D30]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402D32]: 74 14                               jz 0x402d48                        
+[10:54:44.198] [main-module:00402D34]: 8d 4c 24 14                         lea ecx, ptr [esp+0x14]            
+[10:54:44.198] [main-module:00402D38]: 51                                  push ecx                           
+[10:54:44.198] [main-module:00402D39]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402D3A]: ff 15 80 70 40 00                   call dword ptr [0x407080]          
+    [KERNEL32.DLL:GetProcAddress_35C1F38C] ((DWORD)0x76CF0000, 0019F7DC: (CHAR*)"BlockInput")
+    [API-RETURN(... -> 00402D40): 76D31680]
+[10:54:44.198] [main-module:00402D40]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402D42]: 74 04                               jz 0x402d48                        
+[10:54:44.198] [main-module:00402D44]: 6a 01                               push 0x1                           
+[10:54:44.198] [main-module:00402D46]: ff d0                               call eax                           
+    [USER32.dll:BlockInput_FAB206E5] ((DWORD)0x00000001)
+    [API-RETURN(... -> 00402D48): 00000001]
+[10:54:44.198] [main-module:00402D48]: 6a 2c                               push 0x2c                          
+[10:54:44.198] [main-module:00402D4A]: 8d 54 24 7c                         lea edx, ptr [esp+0x7c]            
+[10:54:44.198] [main-module:00402D4E]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402D4F]: e8 5c 07 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402D54]: 6a 2d                               push 0x2d                          
+[10:54:44.198] [main-module:00402D56]: 8d 94 24 98 00 00 00                lea edx, ptr [esp+0x98]            
+[10:54:44.198] [main-module:00402D5D]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402D5E]: e8 4d 07 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402D63]: 8b 1d 64 70 40 00                   mov ebx, dword ptr [0x407064]      
+[10:54:44.198] [main-module:00402D69]: 8d 44 24 78                         lea eax, ptr [esp+0x78]            
+[10:54:44.198] [main-module:00402D6D]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402D6E]: ff d3                               call ebx                           
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F840: (TCHAR*)"avghookx.dll")
+    [API-RETURN(... -> 00402D70): 00000000]
+[10:54:44.198] [main-module:00402D70]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402D72]: 0f 85 e9 02 00 00                   jnz 0x403061                       
+[10:54:44.198] [main-module:00402D78]: 8d 84 24 94 00 00 00                lea eax, ptr [esp+0x94]            
+[10:54:44.198] [main-module:00402D7F]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402D80]: ff d3                               call ebx                           
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F85C: (TCHAR*)"avghooka.dll")
+    [API-RETURN(... -> 00402D82): 00000000]
+[10:54:44.198] [main-module:00402D82]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402D84]: 0f 85 d7 02 00 00                   jnz 0x403061                       
+[10:54:44.198] [main-module:00402D8A]: 6a 53                               push 0x53                          
+[10:54:44.198] [main-module:00402D8C]: 8d 54 24 24                         lea edx, ptr [esp+0x24]            
+[10:54:44.198] [main-module:00402D90]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402D91]: e8 1a 07 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402D96]: 8b 3d e0 70 40 00                   mov edi, dword ptr [0x4070e0]      
+[10:54:44.198] [main-module:00402D9C]: 8d 44 24 20                         lea eax, ptr [esp+0x20]            
+[10:54:44.198] [main-module:00402DA0]: 33 f6                               xor esi, esi                       
+[10:54:44.198] [main-module:00402DA2]: 56                                  push esi                           
+[10:54:44.198] [main-module:00402DA3]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402DA4]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F7E8: (TCHAR*)"OLLYDBG", NULL)
+    [API-RETURN(... -> 00402DA6): 00000000]
+[10:54:44.198] [main-module:00402DA6]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402DA8]: 0f 85 b3 02 00 00                   jnz 0x403061                       
+[10:54:44.198] [main-module:00402DAE]: 6a 54                               push 0x54                          
+[10:54:44.198] [main-module:00402DB0]: 8d 94 24 28 01 00 00                lea edx, ptr [esp+0x128]           
+[10:54:44.198] [main-module:00402DB7]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402DB8]: e8 f3 06 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402DBD]: 56                                  push esi                           
+[10:54:44.198] [main-module:00402DBE]: 8d 84 24 28 01 00 00                lea eax, ptr [esp+0x128]           
+[10:54:44.198] [main-module:00402DC5]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402DC6]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F8EC: (TCHAR*)"WinDbgFrameClass", NULL)
+    [API-RETURN(... -> 00402DC8): 00000000]
+[10:54:44.198] [main-module:00402DC8]: 85 c0                               test eax, eax                      
+[10:54:44.198] [main-module:00402DCA]: 0f 85 91 02 00 00                   jnz 0x403061                       
+[10:54:44.198] [main-module:00402DD0]: 6a 55                               push 0x55                          
+[10:54:44.198] [main-module:00402DD2]: 8d 94 24 4c 01 00 00                lea edx, ptr [esp+0x14c]           
+[10:54:44.198] [main-module:00402DD9]: 59                                  pop ecx                            
+[10:54:44.198] [main-module:00402DDA]: e8 d1 06 00 00                      call 0x4034b0                      
+[10:54:44.198] [main-module:00402DDF]: 56                                  push esi                           
+[10:54:44.198] [main-module:00402DE0]: 8d 84 24 4c 01 00 00                lea eax, ptr [esp+0x14c]           
+[10:54:44.198] [main-module:00402DE7]: 50                                  push eax                           
+[10:54:44.198] [main-module:00402DE8]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F910: (TCHAR*)"Immunity Debugger", NULL)
+    [API-RETURN(... -> 00402DEA): 00000000]
+[10:54:44.213] [main-module:00402DEA]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402DEC]: 0f 85 6f 02 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402DF2]: 6a 56                               push 0x56                          
+[10:54:44.213] [main-module:00402DF4]: 8d 94 24 ec 00 00 00                lea edx, ptr [esp+0xec]            
+[10:54:44.213] [main-module:00402DFB]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00402DFC]: e8 af 06 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00402E01]: 56                                  push esi                           
+[10:54:44.213] [main-module:00402E02]: 8d 84 24 ec 00 00 00                lea eax, ptr [esp+0xec]            
+[10:54:44.213] [main-module:00402E09]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402E0A]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F8B0: (TCHAR*)"Zeta Debugger", NULL)
+    [API-RETURN(... -> 00402E0C): 00000000]
+[10:54:44.213] [main-module:00402E0C]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402E0E]: 0f 85 4d 02 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E14]: 6a 57                               push 0x57                          
+[10:54:44.213] [main-module:00402E16]: 8d 94 24 d0 00 00 00                lea edx, ptr [esp+0xd0]            
+[10:54:44.213] [main-module:00402E1D]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00402E1E]: e8 8d 06 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00402E23]: 56                                  push esi                           
+[10:54:44.213] [main-module:00402E24]: 8d 84 24 d0 00 00 00                lea eax, ptr [esp+0xd0]            
+[10:54:44.213] [main-module:00402E2B]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402E2C]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F894: (TCHAR*)"Rock Debugger", NULL)
+    [API-RETURN(... -> 00402E2E): 00000000]
+[10:54:44.213] [main-module:00402E2E]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402E30]: 0f 85 2b 02 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E36]: 6a 58                               push 0x58                          
+[10:54:44.213] [main-module:00402E38]: 8d 54 24 4c                         lea edx, ptr [esp+0x4c]            
+[10:54:44.213] [main-module:00402E3C]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00402E3D]: e8 6e 06 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00402E42]: 56                                  push esi                           
+[10:54:44.213] [main-module:00402E43]: 8d 44 24 4c                         lea eax, ptr [esp+0x4c]            
+[10:54:44.213] [main-module:00402E47]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402E48]: ff d7                               call edi                           
+    [USER32.dll:FindWindowW_53EC3E88] (0019F810: (TCHAR*)"ObsidianGUI", NULL)
+    [API-RETURN(... -> 00402E4A): 00000000]
+[10:54:44.213] [main-module:00402E4A]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402E4C]: 0f 85 0f 02 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E52]: 8a 0d d4 02 fe 7f                   mov cl, byte ptr [0x7ffe02d4]      
+[10:54:44.213] [main-module:00402E58]: f6 c1 03                            test cl, 0x3                       
+[10:54:44.213] [main-module:00402E5B]: 0f 85 00 02 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E61]: e8 87 f9 ff ff                      call 0x4027ed                      
+[10:54:44.213] [main-module:004027ED]: 55                                  push ebp                           
+[10:54:44.213] [main-module:004027EE]: 8b ec                               mov ebp, esp                       
+[10:54:44.213] [main-module:004027F0]: 83 ec 50                            sub esp, 0x50                      
+[10:54:44.213] [main-module:004027F3]: 8d 55 cc                            lea edx, ptr [ebp-0x34]            
+[10:54:44.213] [main-module:004027F6]: 56                                  push esi                           
+[10:54:44.213] [main-module:004027F7]: 57                                  push edi                           
+[10:54:44.213] [main-module:004027F8]: 6a 09                               push 0x9                           
+[10:54:44.213] [main-module:004027FA]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:004027FB]: e8 b0 0c 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00402800]: 6a 10                               push 0x10                          
+[10:54:44.213] [main-module:00402802]: 8d 55 e8                            lea edx, ptr [ebp-0x18]            
+[10:54:44.213] [main-module:00402805]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00402806]: e8 5d 0c 00 00                      call 0x403468                      
+[10:54:44.213] [main-module:0040280B]: 6a 11                               push 0x11                          
+[10:54:44.213] [main-module:0040280D]: 8d 55 b0                            lea edx, ptr [ebp-0x50]            
+[10:54:44.213] [main-module:00402810]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00402811]: e8 52 0c 00 00                      call 0x403468                      
+[10:54:44.213] [main-module:00402816]: 8d 45 e8                            lea eax, ptr [ebp-0x18]            
+[10:54:44.213] [main-module:00402819]: 50                                  push eax                           
+[10:54:44.213] [main-module:0040281A]: 8d 45 cc                            lea eax, ptr [ebp-0x34]            
+[10:54:44.213] [main-module:0040281D]: 50                                  push eax                           
+[10:54:44.213] [main-module:0040281E]: ff 15 64 70 40 00                   call dword ptr [0x407064]          
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F78C: (TCHAR*)"kernel32.dll")
+    [API-RETURN(... -> 00402824): 757F0000]
+[10:54:44.213] [main-module:00402824]: 8b 35 80 70 40 00                   mov esi, dword ptr [0x407080]      
+[10:54:44.213] [main-module:0040282A]: 50                                  push eax                           
+[10:54:44.213] [main-module:0040282B]: ff d6                               call esi                           
+    [KERNEL32.DLL:GetProcAddress_35C1F38C] ((DWORD)0x757F0000, 0019F7A8: (CHAR*)"IsDebuggerPresent")
+    [API-RETURN(... -> 0040282D): 75812370]
+[10:54:44.213] [main-module:0040282D]: 8b f8                               mov edi, eax                       
+[10:54:44.213] [main-module:0040282F]: 8d 45 b0                            lea eax, ptr [ebp-0x50]            
+[10:54:44.213] [main-module:00402832]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402833]: 8d 45 cc                            lea eax, ptr [ebp-0x34]            
+[10:54:44.213] [main-module:00402836]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402837]: ff 15 64 70 40 00                   call dword ptr [0x407064]          
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F78C: (TCHAR*)"kernel32.dll")
+    [API-RETURN(... -> 0040283D): 757F0000]
+[10:54:44.213] [main-module:0040283D]: 50                                  push eax                           
+[10:54:44.213] [main-module:0040283E]: ff d6                               call esi                           
+    [KERNEL32.DLL:GetProcAddress_35C1F38C] ((DWORD)0x757F0000, 0019F770: (CHAR*)"CheckRemoteDebuggerPresent")
+    [API-RETURN(... -> 00402840): 75822BD0]
+[10:54:44.213] [main-module:00402840]: 8b f0                               mov esi, eax                       
+[10:54:44.213] [main-module:00402842]: ff d7                               call edi                           
+    [KERNEL32.DLL:IsDebuggerPresent_9028EECC] ()
+    [API-RETURN(... -> 00402844): 00000000]
+[10:54:44.213] [main-module:00402844]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402846]: 74 05                               jz 0x40284d                        
+[10:54:44.213] [main-module:00402848]: 33 c0                               xor eax, eax                       
+[10:54:44.213] [main-module:0040284A]: 40                                  inc eax                            
+[10:54:44.213] [main-module:0040284B]: eb 14                               jmp 0x402861                       
+[10:54:44.213] [main-module:0040284D]: 83 65 fc 00                         and dword ptr [ebp-0x4], 0x0       
+[10:54:44.213] [main-module:00402851]: 8d 45 fc                            lea eax, ptr [ebp-0x4]             
+[10:54:44.213] [main-module:00402854]: 50                                  push eax                           
+[10:54:44.213] [main-module:00402855]: 6a ff                               push 0xffffffff                    
+[10:54:44.213] [main-module:00402857]: ff d6                               call esi                           
+    [KERNEL32.DLL:CheckRemoteDebuggerPresent_E7CA71F7] (GetCurrentProcess(), (DWORD)0x0019F7BC)
+    [API-RETURN(... -> 00402859): 00000001]
+[10:54:44.213] [main-module:00402859]: 33 c0                               xor eax, eax                       
+[10:54:44.213] [main-module:0040285B]: 39 45 fc                            cmp dword ptr [ebp-0x4], eax       
+[10:54:44.213] [main-module:0040285E]: 0f 95 c0                            setnz al                           
+[10:54:44.213] [main-module:00402861]: 5f                                  pop edi                            
+[10:54:44.213] [main-module:00402862]: 5e                                  pop esi                            
+[10:54:44.213] [main-module:00402863]: 8b e5                               mov esp, ebp                       
+[10:54:44.213] [main-module:00402865]: 5d                                  pop ebp                            
+[10:54:44.213] [main-module:00402866]: c3                                  ret                                
+[10:54:44.213] [main-module:00402E66]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402E68]: 0f 85 f3 01 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E6E]: e8 64 ec ff ff                      call 0x401ad7                      
+[10:54:44.213] [main-module:00401AD7]: 55                                  push ebp                           
+[10:54:44.213] [main-module:00401AD8]: 8d 6c 24 88                         lea ebp, ptr [esp-0x78]            
+[10:54:44.213] [main-module:00401ADC]: 81 ec e0 00 00 00                   sub esp, 0xe0                      
+[10:54:44.213] [main-module:00401AE2]: 56                                  push esi                           
+[10:54:44.213] [main-module:00401AE3]: 6a 2e                               push 0x2e                          
+[10:54:44.213] [main-module:00401AE5]: 8d 55 e4                            lea edx, ptr [ebp-0x1c]            
+[10:54:44.213] [main-module:00401AE8]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401AE9]: e8 c2 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401AEE]: 6a 2f                               push 0x2f                          
+[10:54:44.213] [main-module:00401AF0]: 8d 55 cc                            lea edx, ptr [ebp-0x34]            
+[10:54:44.213] [main-module:00401AF3]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401AF4]: e8 b7 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401AF9]: 6a 30                               push 0x30                          
+[10:54:44.213] [main-module:00401AFB]: 8d 55 44                            lea edx, ptr [ebp+0x44]            
+[10:54:44.213] [main-module:00401AFE]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401AFF]: e8 ac 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B04]: 6a 31                               push 0x31                          
+[10:54:44.213] [main-module:00401B06]: 8d 55 14                            lea edx, ptr [ebp+0x14]            
+[10:54:44.213] [main-module:00401B09]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401B0A]: e8 a1 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B0F]: 6a 32                               push 0x32                          
+[10:54:44.213] [main-module:00401B11]: 8d 55 98                            lea edx, ptr [ebp-0x68]            
+[10:54:44.213] [main-module:00401B14]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401B15]: e8 96 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B1A]: 6a 33                               push 0x33                          
+[10:54:44.213] [main-module:00401B1C]: 8d 55 b4                            lea edx, ptr [ebp-0x4c]            
+[10:54:44.213] [main-module:00401B1F]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401B20]: e8 8b 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B25]: 6a 34                               push 0x34                          
+[10:54:44.213] [main-module:00401B27]: 8d 55 2c                            lea edx, ptr [ebp+0x2c]            
+[10:54:44.213] [main-module:00401B2A]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401B2B]: e8 80 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B30]: 6a 35                               push 0x35                          
+[10:54:44.213] [main-module:00401B32]: 8d 55 fc                            lea edx, ptr [ebp-0x4]             
+[10:54:44.213] [main-module:00401B35]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401B36]: e8 75 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401B3B]: 8d 45 e4                            lea eax, ptr [ebp-0x1c]            
+[10:54:44.213] [main-module:00401B3E]: 33 f6                               xor esi, esi                       
+[10:54:44.213] [main-module:00401B40]: 89 45 58                            mov dword ptr [ebp+0x58], eax      
+[10:54:44.213] [main-module:00401B43]: 8d 45 cc                            lea eax, ptr [ebp-0x34]            
+[10:54:44.213] [main-module:00401B46]: 89 45 5c                            mov dword ptr [ebp+0x5c], eax      
+[10:54:44.213] [main-module:00401B49]: 8d 45 44                            lea eax, ptr [ebp+0x44]            
+[10:54:44.213] [main-module:00401B4C]: 89 45 60                            mov dword ptr [ebp+0x60], eax      
+[10:54:44.213] [main-module:00401B4F]: 8d 45 14                            lea eax, ptr [ebp+0x14]            
+[10:54:44.213] [main-module:00401B52]: 89 45 64                            mov dword ptr [ebp+0x64], eax      
+[10:54:44.213] [main-module:00401B55]: 8d 45 98                            lea eax, ptr [ebp-0x68]            
+[10:54:44.213] [main-module:00401B58]: 89 45 68                            mov dword ptr [ebp+0x68], eax      
+[10:54:44.213] [main-module:00401B5B]: 8d 45 b4                            lea eax, ptr [ebp-0x4c]            
+[10:54:44.213] [main-module:00401B5E]: 89 45 6c                            mov dword ptr [ebp+0x6c], eax      
+[10:54:44.213] [main-module:00401B61]: 8d 45 2c                            lea eax, ptr [ebp+0x2c]            
+[10:54:44.213] [main-module:00401B64]: 89 45 70                            mov dword ptr [ebp+0x70], eax      
+[10:54:44.213] [main-module:00401B67]: 8d 45 fc                            lea eax, ptr [ebp-0x4]             
+[10:54:44.213] [main-module:00401B6A]: 89 45 74                            mov dword ptr [ebp+0x74], eax      
+[10:54:44.213] [main-module:00401B6D]: ff 74 b5 58                         push dword ptr [ebp+esi*4+0x58]    
+[10:54:44.213] [main-module:00401B71]: ff 15 64 70 40 00                   call dword ptr [0x407064]          
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F72C: (TCHAR*)"SbieDll.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+[10:54:44.213] [main-module:00401B77]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00401B79]: 75 08                               jnz 0x401b83                       
+[10:54:44.213] [main-module:00401B7B]: 46                                  inc esi                            
+[10:54:44.213] [main-module:00401B7C]: 83 fe 08                            cmp esi, 0x8                       
+[10:54:44.213] [main-module:00401B7F]: 72 ec                               jb 0x401b6d                        
+[10:54:44.213] [main-module:00401B81]: eb 03                               jmp 0x401b86                       
+[10:54:44.213] [main-module:00401B6D]: ff 74 b5 58                         push dword ptr [ebp+esi*4+0x58]    
+[10:54:44.213] [main-module:00401B71]: ff 15 64 70 40 00                   call dword ptr [0x407064]          
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F714: (TCHAR*)"dbghelp.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F78C: (TCHAR*)"snxhk.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F75C: (TCHAR*)"api_log.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F6E0: (TCHAR*)"dir_watch.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F6FC: (TCHAR*)"vmcheck.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F774: (TCHAR*)"wpespy.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+    [KERNEL32.DLL:GetModuleHandleW_0794ECEB] (0019F744: (TCHAR*)"pstorec.dll")
+    [API-RETURN(... -> 00401B77): 00000000]
+[10:54:44.213] [main-module:00401B86]: 5e                                  pop esi                            
+[10:54:44.213] [main-module:00401B87]: 8d 65 78                            lea esp, ptr [ebp+0x78]            
+[10:54:44.213] [main-module:00401B8A]: 5d                                  pop ebp                            
+[10:54:44.213] [main-module:00401B8B]: c3                                  ret                                
+[10:54:44.213] [main-module:00402E73]: 85 c0                               test eax, eax                      
+[10:54:44.213] [main-module:00402E75]: 0f 85 e6 01 00 00                   jnz 0x403061                       
+[10:54:44.213] [main-module:00402E7B]: e8 0c ed ff ff                      call 0x401b8c                      
+[10:54:44.213] [main-module:00401B8C]: 55                                  push ebp                           
+[10:54:44.213] [main-module:00401B8D]: 8d 6c 24 88                         lea ebp, ptr [esp-0x78]            
+[10:54:44.213] [main-module:00401B91]: 81 ec 30 03 00 00                   sub esp, 0x330                     
+[10:54:44.213] [main-module:00401B97]: 56                                  push esi                           
+[10:54:44.213] [main-module:00401B98]: 6a 59                               push 0x59                          
+[10:54:44.213] [main-module:00401B9A]: 8d 95 f8 fe ff ff                   lea edx, ptr [ebp-0x108]           
+[10:54:44.213] [main-module:00401BA0]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BA1]: e8 0a 19 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BA6]: 6a 5a                               push 0x5a                          
+[10:54:44.213] [main-module:00401BA8]: 8d 95 98 fd ff ff                   lea edx, ptr [ebp-0x268]           
+[10:54:44.213] [main-module:00401BAE]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BAF]: e8 fc 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BB4]: 6a 5b                               push 0x5b                          
+[10:54:44.213] [main-module:00401BB6]: 8d 55 88                            lea edx, ptr [ebp-0x78]            
+[10:54:44.213] [main-module:00401BB9]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BBA]: e8 f1 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BBF]: 6a 5c                               push 0x5c                          
+[10:54:44.213] [main-module:00401BC1]: 8d 95 dc fe ff ff                   lea edx, ptr [ebp-0x124]           
+[10:54:44.213] [main-module:00401BC7]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BC8]: e8 e3 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BCD]: 6a 5d                               push 0x5d                          
+[10:54:44.213] [main-module:00401BCF]: 8d 95 a4 fe ff ff                   lea edx, ptr [ebp-0x15c]           
+[10:54:44.213] [main-module:00401BD5]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BD6]: e8 d5 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BDB]: 6a 5e                               push 0x5e                          
+[10:54:44.213] [main-module:00401BDD]: 8d 95 10 ff ff ff                   lea edx, ptr [ebp-0xf0]            
+[10:54:44.213] [main-module:00401BE3]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BE4]: e8 c7 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BE9]: 6a 5f                               push 0x5f                          
+[10:54:44.213] [main-module:00401BEB]: 8d 95 40 ff ff ff                   lea edx, ptr [ebp-0xc0]            
+[10:54:44.213] [main-module:00401BF1]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401BF2]: e8 b9 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401BF7]: 6a 60                               push 0x60                          
+[10:54:44.213] [main-module:00401BF9]: 8d 95 70 ff ff ff                   lea edx, ptr [ebp-0x90]            
+[10:54:44.213] [main-module:00401BFF]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C00]: e8 ab 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C05]: 6a 62                               push 0x62                          
+[10:54:44.213] [main-module:00401C07]: 8d 55 00                            lea edx, ptr [ebp]                 
+[10:54:44.213] [main-module:00401C0A]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C0B]: e8 a0 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C10]: 6a 63                               push 0x63                          
+[10:54:44.213] [main-module:00401C12]: 8d 55 a0                            lea edx, ptr [ebp-0x60]            
+[10:54:44.213] [main-module:00401C15]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C16]: e8 95 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C1B]: 6a 64                               push 0x64                          
+[10:54:44.213] [main-module:00401C1D]: 8d 95 48 fd ff ff                   lea edx, ptr [ebp-0x2b8]           
+[10:54:44.213] [main-module:00401C23]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C24]: e8 87 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C29]: 6a 65                               push 0x65                          
+[10:54:44.213] [main-module:00401C2B]: 8d 95 88 fe ff ff                   lea edx, ptr [ebp-0x178]           
+[10:54:44.213] [main-module:00401C31]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C32]: e8 79 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C37]: 6a 66                               push 0x66                          
+[10:54:44.213] [main-module:00401C39]: 8d 95 58 ff ff ff                   lea edx, ptr [ebp-0xa8]            
+[10:54:44.213] [main-module:00401C3F]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C40]: e8 6b 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C45]: 6a 67                               push 0x67                          
+[10:54:44.213] [main-module:00401C47]: 8d 95 04 fe ff ff                   lea edx, ptr [ebp-0x1fc]           
+[10:54:44.213] [main-module:00401C4D]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C4E]: e8 5d 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C53]: 6a 68                               push 0x68                          
+[10:54:44.213] [main-module:00401C55]: 8d 95 6c fe ff ff                   lea edx, ptr [ebp-0x194]           
+[10:54:44.213] [main-module:00401C5B]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C5C]: e8 4f 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C61]: 6a 69                               push 0x69                          
+[10:54:44.213] [main-module:00401C63]: 8d 95 28 ff ff ff                   lea edx, ptr [ebp-0xd8]            
+[10:54:44.213] [main-module:00401C69]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C6A]: e8 41 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C6F]: 6a 6a                               push 0x6a                          
+[10:54:44.213] [main-module:00401C71]: 8d 55 e8                            lea edx, ptr [ebp-0x18]            
+[10:54:44.213] [main-module:00401C74]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C75]: e8 36 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C7A]: 6a 6b                               push 0x6b                          
+[10:54:44.213] [main-module:00401C7C]: 8d 95 28 fe ff ff                   lea edx, ptr [ebp-0x1d8]           
+[10:54:44.213] [main-module:00401C82]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C83]: e8 28 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C88]: 6a 6c                               push 0x6c                          
+[10:54:44.213] [main-module:00401C8A]: 8d 95 bc fd ff ff                   lea edx, ptr [ebp-0x244]           
+[10:54:44.213] [main-module:00401C90]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C91]: e8 1a 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401C96]: 6a 6d                               push 0x6d                          
+[10:54:44.213] [main-module:00401C98]: 8d 95 4c fe ff ff                   lea edx, ptr [ebp-0x1b4]           
+[10:54:44.213] [main-module:00401C9E]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401C9F]: e8 0c 18 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401CA4]: 6a 6e                               push 0x6e                          
+[10:54:44.213] [main-module:00401CA6]: 8d 95 c0 fe ff ff                   lea edx, ptr [ebp-0x140]           
+[10:54:44.213] [main-module:00401CAC]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401CAD]: e8 fe 17 00 00                      call 0x4034b0                      
+[10:54:44.213] [main-module:00401CB2]: 6a 6f                               push 0x6f                          
+[10:54:44.213] [main-module:00401CB4]: 8d 55 b8                            lea edx, ptr [ebp-0x48]            
+[10:54:44.213] [main-module:00401CB7]: 59                                  pop ecx                            
+[10:54:44.213] [main-module:00401CB8]: e8 f3 17 00 00                      call 0x4034b0                      
+[10:54:44.229] [main-module:00401CBD]: 6a 70                               push 0x70                          
+[10:54:44.229] [main-module:00401CBF]: 8d 95 74 fd ff ff                   lea edx, ptr [ebp-0x28c]           
+[10:54:44.229] [main-module:00401CC5]: 59                                  pop ecx                            
+[10:54:44.229] [main-module:00401CC6]: e8 e5 17 00 00                      call 0x4034b0                      
+[10:54:44.229] [main-module:00401CCB]: 6a 71                               push 0x71                          
+[10:54:44.229] [main-module:00401CCD]: 8d 95 e0 fd ff ff                   lea edx, ptr [ebp-0x220]           
+[10:54:44.229] [main-module:00401CD3]: 59                                  pop ecx                            
+[10:54:44.229] [main-module:00401CD4]: e8 d7 17 00 00                      call 0x4034b0                      
+[10:54:44.229] [main-module:00401CD9]: 6a 61                               push 0x61                          
+[10:54:44.229] [main-module:00401CDB]: 8d 55 d0                            lea edx, ptr [ebp-0x30]            
+[10:54:44.229] [main-module:00401CDE]: 59                                  pop ecx                            
+[10:54:44.229] [main-module:00401CDF]: e8 cc 17 00 00                      call 0x4034b0                      
+[10:54:44.229] [main-module:00401CE4]: 8d 85 f8 fe ff ff                   lea eax, ptr [ebp-0x108]           
+[10:54:44.229] [main-module:00401CEA]: 33 f6                               xor esi, esi                       
+[10:54:44.229] [main-module:00401CEC]: 89 45 14                            mov dword ptr [ebp+0x14], eax      
+[10:54:44.229] [main-module:00401CEF]: 8d 85 98 fd ff ff                   lea eax, ptr [ebp-0x268]           
+[10:54:44.229] [main-module:00401CF5]: 89 45 18                            mov dword ptr [ebp+0x18], eax      
+[10:54:44.229] [main-module:00401CF8]: 8d 45 88                            lea eax, ptr [ebp-0x78]            
+[10:54:44.229] [main-module:00401CFB]: 89 45 1c                            mov dword ptr [ebp+0x1c], eax      
+[10:54:44.229] [main-module:00401CFE]: 8d 85 dc fe ff ff                   lea eax, ptr [ebp-0x124]           
+[10:54:44.229] [main-module:00401D04]: 89 45 20                            mov dword ptr [ebp+0x20], eax      
+[10:54:44.229] [main-module:00401D07]: 8d 85 a4 fe ff ff                   lea eax, ptr [ebp-0x15c]           
+[10:54:44.229] [main-module:00401D0D]: 89 45 24                            mov dword ptr [ebp+0x24], eax      
+[10:54:44.229] [main-module:00401D10]: 8d 85 10 ff ff ff                   lea eax, ptr [ebp-0xf0]            
+[10:54:44.229] [main-module:00401D16]: 89 45 28                            mov dword ptr [ebp+0x28], eax      
+[10:54:44.229] [main-module:00401D19]: 8d 85 40 ff ff ff                   lea eax, ptr [ebp-0xc0]            
+[10:54:44.229] [main-module:00401D1F]: 89 45 2c                            mov dword ptr [ebp+0x2c], eax      
+[10:54:44.229] [main-module:00401D22]: 8d 85 70 ff ff ff                   lea eax, ptr [ebp-0x90]            
+[10:54:44.229] [main-module:00401D28]: 89 45 30                            mov dword ptr [ebp+0x30], eax      
+[10:54:44.229] [main-module:00401D2B]: 8d 45 00                            lea eax, ptr [ebp]                 
+[10:54:44.229] [main-module:00401D2E]: 89 45 34                            mov dword ptr [ebp+0x34], eax      
+[10:54:44.229] [main-module:00401D31]: 8d 45 a0                            lea eax, ptr [ebp-0x60]            
+[10:54:44.229] [main-module:00401D34]: 89 45 38                            mov dword ptr [ebp+0x38], eax      
+[10:54:44.229] [main-module:00401D37]: 8d 85 48 fd ff ff                   lea eax, ptr [ebp-0x2b8]           
+[10:54:44.229] [main-module:00401D3D]: 89 45 3c                            mov dword ptr [ebp+0x3c], eax      
+[10:54:44.229] [main-module:00401D40]: 8d 85 88 fe ff ff                   lea eax, ptr [ebp-0x178]           
+[10:54:44.229] [main-module:00401D46]: 89 45 40                            mov dword ptr [ebp+0x40], eax      
+[10:54:44.229] [main-module:00401D49]: 8d 85 58 ff ff ff                   lea eax, ptr [ebp-0xa8]            
+[10:54:44.229] [main-module:00401D4F]: 89 45 44                            mov dword ptr [ebp+0x44], eax      
+[10:54:44.229] [main-module:00401D52]: 8d 85 04 fe ff ff                   lea eax, ptr [ebp-0x1fc]           
+[10:54:44.229] [main-module:00401D58]: 89 45 48                            mov dword ptr [ebp+0x48], eax      
+[10:54:44.229] [main-module:00401D5B]: 8d 85 6c fe ff ff                   lea eax, ptr [ebp-0x194]           
+[10:54:44.229] [main-module:00401D61]: 89 45 4c                            mov dword ptr [ebp+0x4c], eax      
+[10:54:44.229] [main-module:00401D64]: 8d 85 28 ff ff ff                   lea eax, ptr [ebp-0xd8]            
+[10:54:44.229] [main-module:00401D6A]: 89 45 50                            mov dword ptr [ebp+0x50], eax      
+[10:54:44.229] [main-module:00401D6D]: 8d 45 e8                            lea eax, ptr [ebp-0x18]            
+[10:54:44.229] [main-module:00401D70]: 89 45 54                            mov dword ptr [ebp+0x54], eax      
+[10:54:44.229] [main-module:00401D73]: 8d 85 28 fe ff ff                   lea eax, ptr [ebp-0x1d8]           
+[10:54:44.229] [main-module:00401D79]: 89 45 58                            mov dword ptr [ebp+0x58], eax      
+[10:54:44.229] [main-module:00401D7C]: 8d 85 bc fd ff ff                   lea eax, ptr [ebp-0x244]           
+[10:54:44.229] [main-module:00401D82]: 89 45 5c                            mov dword ptr [ebp+0x5c], eax      
+[10:54:44.229] [main-module:00401D85]: 8d 85 4c fe ff ff                   lea eax, ptr [ebp-0x1b4]           
+[10:54:44.229] [main-module:00401D8B]: 89 45 60                            mov dword ptr [ebp+0x60], eax      
+[10:54:44.229] [main-module:00401D8E]: 8d 85 c0 fe ff ff                   lea eax, ptr [ebp-0x140]           
+[10:54:44.229] [main-module:00401D94]: 89 45 64                            mov dword ptr [ebp+0x64], eax      
+[10:54:44.229] [main-module:00401D97]: 8d 45 b8                            lea eax, ptr [ebp-0x48]            
+[10:54:44.229] [main-module:00401D9A]: 89 45 68                            mov dword ptr [ebp+0x68], eax      
+[10:54:44.229] [main-module:00401D9D]: 8d 85 74 fd ff ff                   lea eax, ptr [ebp-0x28c]           
+[10:54:44.229] [main-module:00401DA3]: 89 45 6c                            mov dword ptr [ebp+0x6c], eax      
+[10:54:44.229] [main-module:00401DA6]: 8d 85 e0 fd ff ff                   lea eax, ptr [ebp-0x220]           
+[10:54:44.229] [main-module:00401DAC]: 89 45 70                            mov dword ptr [ebp+0x70], eax      
+[10:54:44.229] [main-module:00401DAF]: 8d 45 d0                            lea eax, ptr [ebp-0x30]            
+[10:54:44.229] [main-module:00401DB2]: 89 45 74                            mov dword ptr [ebp+0x74], eax      
+[10:54:44.229] [main-module:00401DB5]: 8b 4c b5 14                         mov ecx, dword ptr [ebp+esi*4+0x14]
+[10:54:44.229] [main-module:00401DB9]: e8 ae fc ff ff                      call 0x401a6c                      
+[10:54:44.229] [main-module:00401A6C]: 81 ec 2c 02 00 00                   sub esp, 0x22c                     
+[10:54:44.229] [main-module:00401A72]: 55                                  push ebp                           
+[10:54:44.229] [main-module:00401A73]: 56                                  push esi                           
+[10:54:44.229] [main-module:00401A74]: 57                                  push edi                           
+[10:54:44.229] [main-module:00401A75]: 33 ff                               xor edi, edi                       
+[10:54:44.229] [main-module:00401A77]: 8b e9                               mov ebp, ecx                       
+[10:54:44.229] [main-module:00401A79]: 57                                  push edi                           
+[10:54:44.229] [main-module:00401A7A]: 6a 02                               push 0x2                           
+[10:54:44.229] [main-module:00401A7C]: ff 15 34 70 40 00                   call dword ptr [0x407034]          
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+[10:54:44.233] [main-module:00401A82]: 8b f0                               mov esi, eax                       
+[10:54:44.233] [main-module:00401A84]: c7 44 24 0c 2c 02 00 00             mov dword ptr [esp+0xc], 0x22c     
+[10:54:44.233] [main-module:00401A8C]: 8d 44 24 0c                         lea eax, ptr [esp+0xc]             
+[10:54:44.233] [main-module:00401A90]: 50                                  push eax                           
+[10:54:44.233] [main-module:00401A91]: 56                                  push esi                           
+[10:54:44.233] [main-module:00401A92]: ff 15 2c 70 40 00                   call dword ptr [0x40702c]          
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+[10:54:44.233] [main-module:00401A98]: 85 c0                               test eax, eax                      
+[10:54:44.233] [main-module:00401A9A]: 74 28                               jz 0x401ac4                        
+[10:54:44.233] [main-module:00401A9C]: eb 11                               jmp 0x401aaf                       
+[10:54:44.233] [main-module:00401AAF]: 8d 44 24 0c                         lea eax, ptr [esp+0xc]             
+[10:54:44.233] [main-module:00401AB3]: 50                                  push eax                           
+[10:54:44.233] [main-module:00401AB4]: 56                                  push esi                           
+[10:54:44.233] [main-module:00401AB5]: ff 15 30 70 40 00                   call dword ptr [0x407030]          
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+[10:54:44.233] [main-module:00401ABB]: 85 c0                               test eax, eax                      
+[10:54:44.233] [main-module:00401ABD]: 75 df                               jnz 0x401a9e                       
+[10:54:44.233] [main-module:00401ABF]: eb 03                               jmp 0x401ac4                       
+[10:54:44.233] [main-module:00401A9E]: 51                                  push ecx                           
+[10:54:44.233] [main-module:00401A9F]: 51                                  push ecx                           
+[10:54:44.233] [main-module:00401AA0]: 8d 54 24 38                         lea edx, ptr [esp+0x38]            
+[10:54:44.233] [main-module:00401AA4]: 8b cd                               mov ecx, ebp                       
+[10:54:44.233] [main-module:00401AA6]: e8 59 18 00 00                      call 0x403304                      
+[10:54:44.233] [main-module:00403304]: 53                                  push ebx                           
+[10:54:44.233] [main-module:00403305]: 55                                  push ebp                           
+[10:54:44.233] [main-module:00403306]: 8b e9                               mov ebp, ecx                       
+[10:54:44.233] [main-module:00403308]: 8b da                               mov ebx, edx                       
+[10:54:44.233] [main-module:0040330A]: 85 ed                               test ebp, ebp                      
+[10:54:44.233] [main-module:0040330C]: 75 0d                               jnz 0x40331b                       
+[10:54:44.233] [main-module:0040330E]: 85 db                               test ebx, ebx                      
+[10:54:44.233] [main-module:00403310]: 74 05                               jz 0x403317                        
+[10:54:44.233] [main-module:00403312]: 83 c8 ff                            or eax, 0xffffffff                 
+[10:54:44.233] [main-module:00403315]: eb 69                               jmp 0x403380                       
+[10:54:44.233] [main-module:0040331B]: 85 db                               test ebx, ebx                      
+[10:54:44.233] [main-module:0040331D]: 75 05                               jnz 0x403324                       
+[10:54:44.233] [main-module:0040331F]: 33 c0                               xor eax, eax                       
+[10:54:44.233] [main-module:00403321]: 40                                  inc eax                            
+[10:54:44.233] [main-module:00403322]: eb 5c                               jmp 0x403380                       
+[10:54:44.233] [main-module:00403324]: 0f b7 0b                            movzx ecx, word ptr [ebx]          
+[10:54:44.233] [main-module:00403327]: 56                                  push esi                           
+[10:54:44.233] [main-module:00403328]: 57                                  push edi                           
+[10:54:44.233] [main-module:00403329]: e8 ea 00 00 00                      call 0x403418                      
+[10:54:44.233] [main-module:00403418]: b8 00 02 00 00                      mov eax, 0x200                     
+[10:54:44.233] [main-module:0040341D]: 66 3b c8                            cmp cx, ax                         
+[10:54:44.233] [main-module:00403420]: 73 0d                               jnb 0x40342f                       
+[10:54:44.233] [main-module:00403422]: 0f b7 c9                            movzx ecx, cx                      
+[10:54:44.233] [main-module:00403425]: 0f be 81 a8 73 40 00                movsx eax, byte ptr [ecx+0x4073a8] 
+[10:54:44.233] [main-module:0040342C]: 03 c1                               add eax, ecx                       
+[10:54:44.233] [main-module:0040342E]: c3                                  ret                                
+[10:54:44.233] [main-module:0040332E]: 66 8b 4d 00                         mov cx, word ptr [ebp]             
+[10:54:44.233] [main-module:00403332]: 0f b7 f0                            movzx esi, ax                      
+[10:54:44.233] [main-module:00403335]: e8 de 00 00 00                      call 0x403418                      
+[10:54:44.233] [main-module:0040333A]: 0f b7 f8                            movzx edi, ax                      
+[10:54:44.233] [main-module:0040333D]: 2b fe                               sub edi, esi                       
+[10:54:44.233] [main-module:0040333F]: 75 2a                               jnz 0x40336b                       
+[10:54:44.233] [main-module:00403341]: 0f b7 33                            movzx esi, word ptr [ebx]          
+[10:54:44.233] [main-module:00403344]: 2b eb                               sub ebp, ebx                       
+[10:54:44.233] [main-module:00403346]: 66 85 f6                            test si, si                        
+[10:54:44.233] [main-module:00403349]: 74 20                               jz 0x40336b                        
+[10:54:44.233] [main-module:0040334B]: 83 c3 02                            add ebx, 0x2                       
+[10:54:44.233] [main-module:0040334E]: 66 8b 0c 2b                         mov cx, word ptr [ebx+ebp*1]       
+[10:54:44.233] [main-module:00403352]: 0f b7 33                            movzx esi, word ptr [ebx]          
+[10:54:44.233] [main-module:00403355]: e8 be 00 00 00                      call 0x403418                      
+[10:54:44.233] [main-module:0040336B]: 33 c0                               xor eax, eax                       
+[10:54:44.233] [main-module:0040336D]: 83 c9 ff                            or ecx, 0xffffffff                 
+[10:54:44.233] [main-module:00403370]: 40                                  inc eax                            
+[10:54:44.233] [main-module:00403371]: 85 ff                               test edi, edi                      
+[10:54:44.233] [main-module:00403373]: 0f 4f c8                            cmovnle ecx, eax                   
+[10:54:44.233] [main-module:00403376]: f7 df                               neg edi                            
+[10:54:44.233] [main-module:00403378]: 1b ff                               sbb edi, edi                       
+[10:54:44.233] [main-module:0040337A]: 23 f9                               and edi, ecx                       
+[10:54:44.233] [main-module:0040337C]: 8b c7                               mov eax, edi                       
+[10:54:44.233] [main-module:0040337E]: 5f                                  pop edi                            
+[10:54:44.233] [main-module:0040337F]: 5e                                  pop esi                            
+[10:54:44.233] [main-module:00403380]: 5d                                  pop ebp                            
+[10:54:44.233] [main-module:00403381]: 5b                                  pop ebx                            
+[10:54:44.233] [main-module:00403382]: c2 08 00                            ret 0x8                            
+[10:54:44.233] [main-module:00401AAB]: 85 c0                               test eax, eax                      
+[10:54:44.233] [main-module:00401AAD]: 74 12                               jz 0x401ac1                        
+[10:54:44.233] [main-module:00401AAF]: 8d 44 24 0c                         lea eax, ptr [esp+0xc]             
+[10:54:44.233] [main-module:00401AB3]: 50                                  push eax                           
+[10:54:44.233] [main-module:00401AB4]: 56                                  push esi                           
+[10:54:44.233] [main-module:00401AB5]: ff 15 30 70 40 00                   call dword ptr [0x407030]          
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+[10:54:44.233] [main-module:00401AC4]: 56                                  push esi                           
+[10:54:44.233] [main-module:00401AC5]: ff 15 98 70 40 00                   call dword ptr [0x407098]          
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+[10:54:44.233] [main-module:00401ACB]: 8b c7                               mov eax, edi                       
+[10:54:44.233] [main-module:00401ACD]: 5f                                  pop edi                            
+[10:54:44.233] [main-module:00401ACE]: 5e                                  pop esi                            
+[10:54:44.233] [main-module:00401ACF]: 5d                                  pop ebp                            
+[10:54:44.233] [main-module:00401AD0]: 81 c4 2c 02 00 00                   add esp, 0x22c                     
+[10:54:44.233] [main-module:00401AD6]: c3                                  ret                                
+[10:54:44.233] [main-module:00401DBE]: 85 c0                               test eax, eax                      
+[10:54:44.233] [main-module:00401DC0]: 75 08                               jnz 0x401dca                       
+[10:54:44.233] [main-module:00401DC2]: 46                                  inc esi                            
+[10:54:44.233] [main-module:00401DC3]: 83 fe 19                            cmp esi, 0x19                      
+[10:54:44.233] [main-module:00401DC6]: 72 ed                               jb 0x401db5                        
+[10:54:44.233] [main-module:00401DC8]: eb 03                               jmp 0x401dcd                       
+[10:54:44.233] [main-module:00401DB5]: 8b 4c b5 14                         mov ecx, dword ptr [ebp+esi*4+0x14]
+[10:54:44.233] [main-module:00401DB9]: e8 ae fc ff ff                      call 0x401a6c                      
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+[10:54:44.253] [main-module:0040335A]: 8b ce                               mov ecx, esi                       
+[10:54:44.253] [main-module:0040335C]: 0f b7 f8                            movzx edi, ax                      
+[10:54:44.253] [main-module:0040335F]: e8 b4 00 00 00                      call 0x403418                      
+[10:54:44.253] [main-module:00403364]: 0f b7 c0                            movzx eax, ax                      
+[10:54:44.253] [main-module:00403367]: 2b f8                               sub edi, eax                       
+[10:54:44.253] [main-module:00403369]: 74 db                               jz 0x403346                        
+[10:54:44.253] [main-module:0040336B]: 33 c0                               xor eax, eax                       
+[10:54:44.253] [main-module:0040336D]: 83 c9 ff                            or ecx, 0xffffffff                 
+[10:54:44.253] [main-module:00403370]: 40                                  inc eax                            
+[10:54:44.253] [main-module:00403371]: 85 ff                               test edi, edi                      
+[10:54:44.253] [main-module:00403373]: 0f 4f c8                            cmovnle ecx, eax                   
+[10:54:44.253] [main-module:00403376]: f7 df                               neg edi                            
+[10:54:44.253] [main-module:00403378]: 1b ff                               sbb edi, edi                       
+[10:54:44.253] [main-module:0040337A]: 23 f9                               and edi, ecx                       
+[10:54:44.253] [main-module:0040337C]: 8b c7                               mov eax, edi                       
+[10:54:44.253] [main-module:0040337E]: 5f                                  pop edi                            
+[10:54:44.253] [main-module:0040337F]: 5e                                  pop esi                            
+[10:54:44.253] [main-module:00403380]: 5d                                  pop ebp                            
+[10:54:44.253] [main-module:00403381]: 5b                                  pop ebx                            
+[10:54:44.253] [main-module:00403382]: c2 08 00                            ret 0x8                            
+[10:54:44.253] [main-module:00403346]: 66 85 f6                            test si, si                        
+[10:54:44.253] [main-module:00403349]: 74 20                               jz 0x40336b                        
+[10:54:44.253] [main-module:0040334B]: 83 c3 02                            add ebx, 0x2                       
+[10:54:44.253] [main-module:0040334E]: 66 8b 0c 2b                         mov cx, word ptr [ebx+ebp*1]       
+[10:54:44.253] [main-module:00403352]: 0f b7 33                            movzx esi, word ptr [ebx]          
+[10:54:44.253] [main-module:00403355]: e8 be 00 00 00                      call 0x403418                      
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000000]
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+    [KERNEL32.DLL:CreateToolhelp32Snapshot_03A0003E] (TH32CS_INHERIT|TH32CS_SNAPALL|TH32CS_SNAPPROCESS, (DWORD)0x00000000)
+    [API-RETURN(... -> 00401A82): 00000214]
+    [KERNEL32.DLL:Process32FirstW_CAF1DC86] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401A98): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+    [KERNEL32.DLL:Process32NextW_6825ED49] ((DWORD)0x00000214, (DWORD)0x0019F25C)
+    [API-RETURN(... -> 00401ABB): 00000001]
+[10:54:44.299] [main-module:00401AC1]: 33 ff                               xor edi, edi                       
+[10:54:44.299] [main-module:00401AC3]: 47                                  inc edi                            
+[10:54:44.299] [main-module:00401AC4]: 56                                  push esi                           
+[10:54:44.299] [main-module:00401AC5]: ff 15 98 70 40 00                   call dword ptr [0x407098]          
+    [KERNEL32.DLL:CloseHandle_84B665B1] ((DWORD)0x00000214)
+    [API-RETURN(... -> 00401ACB): 00000001]
+[10:54:44.299] [main-module:00401DCA]: 33 c0                               xor eax, eax                       
+[10:54:44.299] [main-module:00401DCC]: 40                                  inc eax                            
+[10:54:44.299] [main-module:00401DCD]: 5e                                  pop esi                            
+[10:54:44.299] [main-module:00401DCE]: 8d 65 78                            lea esp, ptr [ebp+0x78]            
+[10:54:44.299] [main-module:00401DD1]: 5d                                  pop ebp                            
+[10:54:44.299] [main-module:00401DD2]: c3                                  ret                                
+[10:54:44.299] [main-module:00402E80]: 85 c0                               test eax, eax                      
+[10:54:44.299] [main-module:00402E82]: 0f 85 d9 01 00 00                   jnz 0x403061                       
+[10:54:44.299] [main-module:00402E88]: 85 ed                               test ebp, ebp                      
+[10:54:44.299] [main-module:00402E8A]: 0f 85 c3 00 00 00                   jnz 0x402f53                       
+[10:54:44.299] [main-module:00402E90]: e8 e2 ef ff ff                      call 0x401e77                      
+[10:54:44.299] [main-module:00403061]: 33 c0                               xor eax, eax                       
+[10:54:44.299] [main-module:00403063]: 40                                  inc eax                            
+[10:54:44.299] [main-module:00403064]: 5f                                  pop edi                            
+[10:54:44.299] [main-module:00403065]: 5e                                  pop esi                            
+[10:54:44.299] [main-module:00403066]: 5d                                  pop ebp                            
+[10:54:44.299] [main-module:00403067]: 5b                                  pop ebx                            
+[10:54:44.299] [main-module:00403068]: 81 c4 5c 01 00 00                   add esp, 0x15c                     
+[10:54:44.299] [main-module:0040306E]: c3                                  ret                                
+[10:54:44.299] [main-module:0040144D]: 85 c0                               test eax, eax                      
+[10:54:44.299] [main-module:0040144F]: 0f 85 0c 03 00 00                   jnz 0x401761                       
+[10:54:44.299] [main-module:00401455]: 21 44 24 0c                         and dword ptr [esp+0xc], eax       
+[10:54:44.299] [main-module:00401459]: 6a 24                               push 0x24                          
+[10:54:44.299] [main-module:0040145B]: 58                                  pop eax                            
+[10:54:44.299] [main-module:0040145C]: 48                                  dec eax                            
+[10:54:44.299] [main-module:0040145D]: c6 44 04 14 00                      mov byte ptr [esp+eax*1+0x14], 0x0 
+[10:54:44.299] [main-module:00401462]: 75 f8                               jnz 0x40145c                       
+[10:54:44.299] [main-module:00401464]: 68 04 01 00 00                      push 0x104                         
+[10:54:44.299] [main-module:00401469]: 8d 84 24 38 04 00 00                lea eax, ptr [esp+0x438]           
+[10:54:44.299] [main-module:00401470]: 50                                  push eax                           
+[10:54:44.299] [main-module:00401471]: 6a 00                               push 0x0                           
+[10:54:44.299] [main-module:00401473]: ff 15 84 70 40 00                   call dword ptr [0x407084]          
+[10:54:44.299] [main-module:00401761]: 5f                                  pop edi                            
+[10:54:44.299] [main-module:00401762]: 5e                                  pop esi                            
+[10:54:44.299] [main-module:00401763]: 5b                                  pop ebx                            
+[10:54:44.299] [main-module:00401764]: 6a 00                               push 0x0                           
+[10:54:44.299] [main-module:00401766]: ff 15 90 70 40 00                   call dword ptr [0x407090]          
+    [KERNEL32.DLL:ExitProcess_42C9A5D5] ((DWORD)0x00000000)
